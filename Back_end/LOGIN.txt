@@ -1,0 +1,244 @@
+***************************************************LOGIN
+<!-- <div class="container"> -->
+<div class="row" id="container">
+
+    <!-- upande wa kushoto -->
+    <div class="col-md-4 bg" id="left">
+        <img [src]="myImage" alt="loading....." height="100%" width="100%">
+    </div>
+    
+    <!--  upande wa kulia  -->
+    <div class="col-md-8" id="right">
+        
+        <!-- Login Form -->
+        <form class="col-md-6" >
+            <h2 id="heading"> Log in</h2>
+            <br>
+
+            <label for="username">Username: </label> <br>
+            <input type="text" placeholder="username" id="username" required>
+            <br><br>
+
+            <label for="password">Password: </label><br> 
+            <input type="text" placeholder="Enter your password" id="password" required>
+            <br><br>
+
+            <a href="#">forgot password! </a> don't have an account? <a href="#"> sign up</a>
+            <br><br>
+            
+            <button mat-raised-button id="log_btn"><mat-icon>login</mat-icon> login</button>
+        </form> <!--  mwisho wa fomu-->
+     </div>
+</div>
+<!-- </div> -->
+
+
+***********************************CSS
+#container{
+    height: 100%;
+}
+
+/*--- div ya left ---*/
+#left{
+    background-color: black;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+h4{
+    color: white;
+    text-align: center;
+}
+/*--- mwisho wa let div ---*/
+
+/*--- div ya right ---*/
+#right{
+    padding-top: 100px;
+}
+
+/* ------Fomu----- */
+form{
+    width: 70%;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: 0 0 7px silver;
+    margin-left: 110px;
+}
+
+/*---Log in heading ---*/
+h2{
+    padding-left: 170px;
+}
+
+input[type="text"]{
+    width: 80%;
+    padding: 10px;
+    border: none;
+    box-shadow: 0 0 2px silver;
+}
+
+/*--- log in button ---*/
+#log_btn{
+    width: 80%;
+    background-color: cadetblue;
+    padding: 7px;
+    border: none;
+}
+#log_btn:hover{
+    background-color: aqua;
+}
+/*--- mwisho wa right div ---*/
+
+#ddd{
+    background-color: black;
+    color: red;
+}
+#ddd:hover{
+    background-color: red;
+}
+
+****************************************************************HOME
+<div class="row" id="container">
+
+    <div class="row">
+        <div class="col-md-12"><img [src]="myImage" alt="loading....." height="500px" width="100%"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <br>
+            <h2>Wellcome to Ndoto Ajira Competition</h2>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus excepturi, 
+                nostrum ut deserunt dolorem magnam vero fuga modi placeat at, totam debitis pariatur 
+                facere recusandae. Ullam soluta culpa excepturi error. 
+            </p>
+        </div>
+    </div>
+
+    <div class="row" id="mision_vision">
+        <div class="col-md-4">
+            <mat-card>
+                <mat-card-header>
+                    <mat-card-title>Our Mission</mat-card-title>
+                </mat-card-header>
+                <mat-card-content>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et repellendus quam corporis molestiae 
+                voluptatum, ullam dolores quaerat eaque, optio illum, 
+                eos commodi nulla praesentium! Animi voluptatum provident accusamus ratione quidem?
+            </p>
+                </mat-card-content>
+            </mat-card>
+        </div>
+
+        <div class="col-md-4">
+            <mat-card>
+                <mat-card-header>
+                    <mat-card-title>Our Vision</mat-card-title>
+                </mat-card-header>
+                <mat-card-content>
+            
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ullam eum error. 
+                Ad, obcaecati amet. Ad quo doloribus reprehenderit officia quam magni dolores, 
+                distinctio, consectetur, quos cupiditate mollitia numquam enim.
+            </p>
+        </mat-card-content>
+    </mat-card>
+        </div>
+
+        <div class="col-md-4">
+            <mat-card>
+                <mat-card-header>
+                    <mat-card-title>Our Objecttives</mat-card-title>
+                </mat-card-header>
+                <mat-card-content>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et repellendus quam corporis molestiae 
+                voluptatum, ullam dolores quaerat eaque, optio illum, 
+                eos commodi nulla praesentium! Animi voluptatum provident accusamus ratione quidem?
+            </p>
+                </mat-card-content>
+            </mat-card>
+        </div>
+
+    </div>
+
+    <div class="row" id="footer">
+        <div class="col-md-12">
+            <mat-card id="contact">
+                <mat-card-header>
+                    <mat-card-title>contact Us</mat-card-title>
+                </mat-card-header>
+                <mat-card-content>
+                    <div class="row">
+                    <div class="col-md-4" id="contact_letf">
+                        <h3>Email</h3>
+                        <P>example@gmai.com</P>
+
+                        <h3>Mobile</h3>
+                        <p>0779 098 564</p>
+
+                        <h3>Fax</h3>
+                        <p>+255 879 756</p>
+
+                        <h3>Location</h3>
+                        <p>Zanzibar / Tanzania</p>
+                    </div>
+
+                    <div class="col-md-3" id="contact_kulia">
+                        <h2>Follow us on:</h2>
+                        <p>facebook</p>
+                        <p>whatsapp</p>
+                        <p>insta</p>
+                        <p>twiter</p>
+                    </div>
+                    
+                    <div class="col-md-5">
+                        <h2>Coment Box</h2>
+                        <textarea name="" id="" cols="60" rows="10" placeholder="Please leave your comment here...."></textarea>
+                    </div>
+                </div>
+                </mat-card-content>
+            </mat-card>
+        </div>
+    </div>
+</div>
+
+***********************************************CSS
+ul{
+    list-style: none;
+}
+
+ul > li{
+    float: right;
+    margin: 10px;
+    color: red;
+    font-weight: bold;
+}
+
+.btn{
+    margin: 10px;
+}
+/* 
+mat-card{
+    background-color:gainsboro;
+} */
+
+mat-card-title{
+    text-align: center;
+}
+
+#contact{
+    margin-top: 10px;
+}
+
+
+
+
+*******FORM
+*una declare form in TYSCRIPT file with datatype of formGroup
+* una initialize form yako kwenye _ngOnInit_ method , this.userForm = new formGroup --> formGroup ni object
+ambayo inachukua key & value from form   

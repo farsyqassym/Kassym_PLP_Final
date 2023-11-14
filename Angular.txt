@@ -1,0 +1,57 @@
+ng new project name = to create new Angular project
+ng serve = to run Angular project 
+
+
+running Typescript
+tsc (typescript compiler)= it stranspile typescript to javascript
+Eg =(1) tsc main.ts = we complite our program
+(2) node main.js = we execute our program
+tsc main.ts | node main.js = to run and execute in one line
+
+
+folders:-
+app folder= is the folder that has module & componet > every Angular project has atlist one mode and one component
+assets folder = is the folder that we store image & icon
+enviroment folder = is the folder that we make configuration setting
+favicon.icon = is file that has icon display on the browser
+main.ts = is the file that is starting point of our project 
+.editorconfig = is the file found in the src folder that if you are working in time every developer must set the same setting in this file  
+karma.config.js = is the text runner file for javascript
+package.json = is the file that every node project has
+tsconfig.json = is the file that has setting for typescript compiler > ina compile typescrip in to javascript that browser can understand
+Angular project contain module and eache module(eg, user) has component
+Component ni how our project is looked (eg, has nav_bar, side_bar & footer)
+Angular project has a default component which is ROOT COMPONENT also known as APP COMPONENT, all other component will be nested inside this component
+Each componet will have HTML Templete to represent the view in the browsers and CLASS to control the logic of that particular view
+Module also has service which is basicaly a class that contain a business logic of your project
+Module ina export and Import the code
+Component inajengwa na vitu vutatu TEMPLATE, CLASS & METADATA
+ng g c = to create component
+After creating a component is imported in APP.MODULE.TS file, pia inaingizwa katika declaration array which is in app.module.ts 
+
+
+
+
+TYPE PACEPTION = ishu ya kuandika na kumalziwa kwamujibu wa datatype
+*if a function has only one line we can even remove calbracess
+*If a function has only one paramiter we can even remove function's braket
+
+*Interface normaly is a declation place not for implimentation (interface haina function)
+
+*************
+property binding = [disabled]="isDisabled" -kwenye property tumeweka true or false
+class binding = HTML(class="text-danger")/ [class]="dangerClass" / [class.text-success]="successClass" / [ngClass]="objectName"
+style binding = [style.color]="'orange'" / [style.color]="thiscolor ? 'red' : 'green'" -this is condition style (if true=red else=green)
+titleStyle = {} -ukiwa unataka kufanta style zaidi ya moja kwa tag moja na pia inatumia [ngStyle]="titleStyle"
+
+Component Interaction = btn parrent & chield component ---- using input & output decorator (--@input() / @output()--)
+
+ANGULAR MATERIALS
+*** npm install --save @angular/animations
+*** npm install --save @angular/material @angular/cdk
+ 
+						
+
+
+			CLASS DIAGRAM
+https://www.bing.com/search?q=class+diagram+full+caourse&cvid=ce5b56ec51eb4e008fe1ca11caf37144&aqs=edge..69i57j0l8.27986j0j1&pglt=43&FORM=ANNTA1&PC=U531

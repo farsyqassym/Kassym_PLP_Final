@@ -1,0 +1,23 @@
+GIT	
+IN WINDOW:-
+*Install git bash
+*check git bash version (git --version)
+*Configer git account:-
+i) USERNAME = git config --global user.name 'carrasco10abulla'
+ii) EMAIL   = git config --global user.email 'carrasco21abdulla@gmail.com'
+iii) COLOR  = git config --global color.ui auto 
+*check git configuration (git config -l)
+*Make a folder(working directory) to be a GIT REPOSITORY (git init .)
+*git init => is for brand new project
+*to remove to be a git repository (rm -rf .git)
+*ls -a => to see the folder that is already git folder / not
+'GTI REPOSITORY = is waht contain your files / project'
+*git status = command used to check the 
+*to insert a file in the staging area we use (git add filename.xxx)
+*to unstage (git rm --cached filename.xxx)
+*to unstage all files in the directory (git rm -r --cached .)
+*to add all files from directory to staging are (git add .)
+COMMIT(SAVE POINT):-
+*git commit -m "any name"
+*git log = to see the commit
+*git show 3c6876d3d08e3d9a06362b50dff2c6e41b7a3c(commit hash) = to see things in the commit

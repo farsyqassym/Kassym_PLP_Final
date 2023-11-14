@@ -1,0 +1,21 @@
+SPRING BOOT security
+Authentication & Authorization = is deficult because we create multiple classes and we use dificult logic 
+**Creating user & role class  
+make relationship btn them
+
+**create api for savig User & and role
+
+**authentication
+
+**creating CONFIGURATION package
+**than tuna create CORS class and we confiure it, by allowing (methods,headers,orignParttern,credential)
+**than we create JwtAthenticationEntryPoint class, that will impliments AuthenticationEntryPoint interface
+
+**than we create WebSecurityConfiguration class (here we make security)
+among the annotation we use in this class is = @EnableGlobalMethodSecurity(prePostEnabled = true)--> this take cre about roles.
+*tunafanya configuration za authentication & filater, pia tunafanya issue za PasswordEncoder(Encryption)
+
+JWTAUTHENTICATIONENTRYPOINT class.
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
